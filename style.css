@@ -202,11 +202,12 @@ div.item_cpu section article{
         height:50px;
     }
     div.heading header{
-        float:left;
+        top:15px;
+        left:22%;
+        position: absolute;
+        float:none;
         color:white;
         text-align:center;
-        padding:1%;
-        margin: 2%;
         font-size:60px;
     }
     div.heading a.nav {
