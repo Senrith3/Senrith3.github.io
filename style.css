@@ -190,7 +190,7 @@ div.item_cpu section article{
     color:white;
     list-style-image: url("Media/tick.png");
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:360px) {
     div.heading div {
         overflow:hidden;
         clear:both;
