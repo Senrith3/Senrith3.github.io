@@ -190,7 +190,7 @@ div.item_cpu section article{
     color:white;
     list-style-image: url("Media/tick.png");
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:420px) {
     div.heading div {
         overflow:hidden;
         clear:both;
@@ -234,7 +234,7 @@ div.item_cpu section article{
         height:35%;
     }
     div.feature {
-        height:35%;
+        height:20%;
     }
     div.feature img:first-child{
         height:35%;
@@ -294,6 +294,113 @@ div.item_cpu section article{
     }
     div.item_cpu section article{
         font-size:10px;
+        font-family:Sans-serif;
+    }
+}
+@media screen and (max-width:768px) {
+    div.heading div {
+        overflow:hidden;
+        clear:both;
+        height:0;
+    }
+    div.heading img{
+        margin:2%;
+        width:50px;
+        height:50px;
+    }
+    div.heading header{
+        top:15px;
+        left:22%;
+        position: absolute;
+        float:none;
+        color:white;
+        text-align:center;
+        font-size:60px;
+    }
+    div.heading a.nav {
+        float:right;
+        width:50px;
+        height:50px;
+        margin:3%;
+        background: url(Media/menu1.png) no-repeat;
+    }
+    div.heading section {
+        padding:1%;
+        margin: 1%;
+        float:none;
+        color:white;
+        text-align:center;
+        font-size:30px;
+        font-family: 'inversionz_unboxedregular';
+    }
+    div.heading div.open {
+        height:auto;
+    }
+    div video {
+        width:99%;
+        height:30%;
+    }
+    div.feature {
+        height:30%;
+    }
+    div.feature img:first-child{
+        height:30%;
+    }
+    div.feature img:last-child {
+        height:30%;
+    }
+    div.slideshow img {
+        height:30%;
+    }
+    div.space {
+        height:150px;
+    }
+    div.content {
+        width:85%;
+        border-right: 2px solid purple;
+    }
+    div.content header {
+        font-size:60px;
+        border-bottom: 2px dashed purple;
+        text-align:center;
+        margin:2%;
+    }
+    div.content nav {
+        font-size:50px;
+        text-align:center;
+        margin:2%;
+        border-bottom: 2px solid purple;
+    }
+    div.item_gpu section {
+        width:96%;
+        height:650px;
+    }
+    div.item_gpu section img {
+        height:300px;
+    }
+    div.item_gpu section header {
+        font-size:40px;
+    }
+    div.item_gpu section article{
+        font-size:25px;
+    }
+    div.item_cpu section {
+        width:96%;
+        height:600px;
+    }
+    div.item_cpu section img {
+        position: relative;
+        left:25%;
+        width:50%;
+        height:300px;
+        margin:0;
+    }
+    div.item_cpu section header {
+        font-size:40px;
+        text-align:center;
+    }
+    div.item_cpu section article{
+        font-size:25px;
         font-family:Sans-serif;
     }
 }
